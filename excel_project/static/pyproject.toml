@@ -1,0 +1,15 @@
+[project]
+name = "dad"
+version = "0.1.0"
+description = "It is a website where data is directly stored in Excel"
+authors = [{ name = "Sai Nithin", email = "sainithin448@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+
+packages = [
+    { include = "server.py" },
+    { include = "static" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
